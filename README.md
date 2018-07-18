@@ -10,8 +10,9 @@ Do inference for semantic segmentation with trained caffe models.
 	
 	```string image_path = the path of your images;```
 
-3. Change INCLUDE\_DIRECTORIES and LINK\_DIRECTORIES for cuda, opencv, caffe, boost, gflags, and glog.
-4. ```cd build```
-5. ```cmake ..```
-6. ```make```
-7. ```sudo ./segDemoCPP```
+3. Change INCLUDE\_DIRECTORIES and LINK\_DIRECTORIES for cuda, opencv, caffe, boost, gflags, and glog in CMakeLists.txt.
+4. Change working directory to current directory.
+5. ```cd build```
+6. ```cmake ..```
+7. ```make```
+8. ```sudo ./segDemoCPP```
